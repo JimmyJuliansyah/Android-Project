@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimmy.uas_perpustakaan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".History"
+            android:label="@string/action_history"/>
+        <activity
+            android:name=".Info"
+            android:label="@string/action_info" />
+        <activity
+            android:name=".Credits"
+            android:label="@string/action_credits" />
+        <activity
+            android:name=".Buku"
+            android:label="@string/action_buku" />
+        <activity
+            android:name=".Profil"
+            android:label="@string/action_profil" />
+        <activity
+            android:name=".Signup"
+            android:label="@string/action_nolabel" />
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/action_beranda" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/action_nolabel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

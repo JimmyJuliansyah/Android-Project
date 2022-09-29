@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UAS_Perpustakaan</string>
+
+    <string name="action_nolabel"></string>
+    <string name="action_beranda">Beranda</string>
+    <string name="action_buku">Buku</string>
+    <string name="action_history">History</string>
+    <string name="action_info">Info</string>
+    <string name="action_credits">Credits</string>
+    <string name="action_profil">Profil</string>
+
+
+    <string name="beranda">Perpustakaan merupakan upaya untuk memelihara dan meningkatkan efisiensi dan efektivitas proses belajar-mengajar. Perpustakaan yang terorganisasi secara baik dan sistematis, secara langsung ataupun tidak langsung dapat memberikan kemudahan bagi proses belajar mengajar di sekolah tempat perpustakaan tersebut berada. Hal ini, terkait dengan kemajuan bidang pendidikan dan dengan adanya perbaikan metode belajar-mengajar yang dirasakan tidak bisa dipisahkan dari masalah penyediaan fasilitas dan sarana pendidikan.</string>
+    <string name="tujuan1">1. Dapat mendidik dirinya sendiri secara berkesimbungan.</string>
+    <string name="tujuan2">2. Dapat tanggap dalam kemajuan pada berbagai lapangan ilmu pengetahuan, kehidupan sosial dan politik.</string>
+    <string name="tujuan3">3. Dapat memelihara kemerdekaan berpikir yang konstruktif untuk menjadi anggota keluarga dan masyarakat yang lebih baik.</string>
+    <string name="tujuan4">4. Dapat mengembangkan kemampuan berpikir kreatif, membina rohani dan dapat menggunakan kemampuannya untuk dapat menghargai hasil seni dan budaya manusia.</string>
+    <string name="tujuan5">5. Dapat meningkatkan taraf kehidupan sehari-hari dan lapangan pekerjaannya.</string>
+    <string name="tujuan6">6. Dapat menjadi warga negara yang baik dan dapat berpartisipasi secara aktif dalam pembangunan nasional dan dalam membina saling pengertian antar bangsa.</string>
+    <string name="tujuan7">7. Dapat menggunakan waktu senggang dengan baik yang bermanfaat bagi kehidupan pribadi dan sosial.</string>
+</resources>

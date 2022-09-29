@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_beranda"
+        android:title="@string/action_beranda"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_profil"
+        android:title="@string/action_profil"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_buku"
+        android:title="@string/action_buku"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_history"
+        android:title="@string/action_history"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_credits"
+        android:title="@string/action_credits"
+        app:showAsAction="never" />
+
+</menu>

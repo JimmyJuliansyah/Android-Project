@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <TableRow>
+        <TextView
+            android:width="100dp"
+            android:text="Email :"/>
+
+        <TextView
+            android:id="@+id/email_login"
+            android:width="200dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:width="100dp"
+            android:text="Password :"/>
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginBottom="30dp"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="Change" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:onClick="LogOut" />
+
+    </TableLayout>
+
+
+</LinearLayout>
